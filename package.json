@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waseemqureshi04/Project.git"
+  },
+  "keywords": [
+    "react",
+    "MyProject",
+    "waseemqureshi"
+  ],
+  "author": "Waseem Qureshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waseemqureshi04/Project/issues"
+  },
+  "homepage": "https://github.com/waseemqureshi04/Project#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
