@@ -6,8 +6,8 @@ class UserClass extends React.Component {
 
     this.state = {
       userInfo: {
-        name: "Dummy",
-        location: "Default",
+        name: "Mohammed Ghouseuddin Qureshi",
+        location: "Hyderabad",
       },
     };
     //console.log(this.props.name + "Child Constructor");
@@ -17,7 +17,8 @@ class UserClass extends React.Component {
     //console.log(this.props.name + "Child Component Did Mount");
     // Api call
 
-    const data = await fetch("https://api.github.com/users/akshaymarch7");
+    const data = await fetch("https://api.github.com/users/MohammedGhouseuddinQureshi");
+
     const json = await data.json();
 
     this.setState({
@@ -44,7 +45,7 @@ class UserClass extends React.Component {
         <img src={avatar_url} />
         <h2>Name: {name}</h2>
         <h3>Location: {location}</h3>
-        <h4>Contact: @akshaymarch7</h4>
+        <h4>Contact: @MohammedGhouseuddinQureshi</h4>
       </div>
     );
   }
