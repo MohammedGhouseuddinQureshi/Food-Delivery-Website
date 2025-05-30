@@ -2,26 +2,34 @@
   "name": "react",
   "version": "1.0.0",
   "description": "Food Delivery Website built using React",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "test": "jest"
-  },
+  "author": "Mohammed Ghouseuddin Qureshi <mqureshi@gitam.in>",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website.git"
   },
+  "bugs": {
+    "url": "https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website/issues"
+  },
+  "homepage": "https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website#readme",
   "keywords": [
     "react",
     "FoodDelivery",
     "MohammedGhouseuddinQureshi"
   ],
-  "author": "Mohammed Ghouseuddin Qureshi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website/issues"
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
   },
-  "homepage": "https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@swc/helpers": "^0.4.37",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.11.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
@@ -35,14 +43,6 @@
     "postcss": "^8.4.24",
     "process": "^0.11.10",
     "tailwindcss": "^3.3.2"
-  },
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
-    "@swc/helpers": "^0.4.37",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^8.1.3",
-    "react-router-dom": "^6.11.2"
   },
   "browserslist": [
     "last 2 versions"
