@@ -1,27 +1,28 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "This is React JS",
+  "description": "Food Delivery Website built using React",
   "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waseemqureshi04/Project.git"
+    "url": "git+https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website.git"
   },
   "keywords": [
     "react",
-    "MyProject",
-    "waseemqureshi"
+    "FoodDelivery",
+    "MohammedGhouseuddinQureshi"
   ],
-  "author": "Waseem Qureshi",
+  "author": "Mohammed Ghouseuddin Qureshi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/waseemqureshi04/Project/issues"
+    "url": "https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website/issues"
   },
-  "homepage": "https://github.com/waseemqureshi04/Project#readme",
+  "homepage": "https://github.com/MohammedGhouseuddinQureshi/Food-Delivery-Website#readme",
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
