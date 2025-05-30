@@ -1,5 +1,3 @@
-# Namaste React 🚀
-
 
 # Parcel
 - Dev Build
@@ -22,7 +20,7 @@
 
 
 
-# Namaste Food
+Food Delivery
 
 
 /**
